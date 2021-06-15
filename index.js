@@ -56,7 +56,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'ORG: OwnerBot;\n' 
             + 'TEL;type=CELL;type=VOICE;waid=6285156336420:+62 851-5633-6420\n' 
             + 'END:VCARD'
-prefix = '.' 
+prefix = '!' 
 blocked = []   
 limitawal = 25
 memberlimit = 1
@@ -1162,9 +1162,9 @@ ara.on("CB:action,,call", async json => {
 ┗━━━━━━━━━━━►
 
 ┏━━► *「 THANKS TO 」* 
-┣► *Yeyen Cangtip*
+┣► *Angger*
 ┣► *Adul Alhy*
-┣► *MEMEMBER GRUP MERESAHKAN TBOT*
+┣► *MEMEMBER GRUP MERESAHKAN ORIGAMI*
 ┗━━━━━━━━━━━►
 
 `
@@ -1184,7 +1184,7 @@ ara.on("CB:action,,call", async json => {
 
 ► Name : ${ara.user.name}
 ► Nomor Bot : @${me.jid.split('@')[0]}
-► Owner : Yeyen Cangtip
+► Owner : Angger
 ► Prefix : [ ${prefix} ]
 ► Total Block Contact : ${blocked.length}
 ► The bot is active on :
