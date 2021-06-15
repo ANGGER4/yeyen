@@ -52,22 +52,22 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Yeyen Cangtip\n'
+            + 'FN:Angger Gans\n'
             + 'ORG: OwnerBot;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6283186893249:+62 831-8689-3249\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6285156336420:+62 851-5633-6420\n' 
             + 'END:VCARD'
 prefix = '.' 
 blocked = []   
 limitawal = 25
 memberlimit = 1
-cr = '*Yeyen Cangtip*' 
+cr = 'Angger Gans' 
 fakeimage = fs.readFileSync(`./src/logo.jpg`)
-replitx = '*YEYEN CANGTIP*'
-ari = '*YEYEN CANGTIP*'
+replitx = 'Angger Gans'
+ari = 'Angger Gans'
 
 /******** OWNER NUMBER**********/
-const ownerNumber = ['6283186893249@s.whatsapp.net','6281390199407@s.whatsapp.net']   
-const pacarNumber = ["6281390199407@s.whatsapp.net"]  
+const ownerNumber = ['6283186893249@s.whatsapp.net','6281222463168@s.whatsapp.net']   
+const pacarNumber = ["6282188639365@s.whatsapp.net"]  
 /************************************/
 
        
