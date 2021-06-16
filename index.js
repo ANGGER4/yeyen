@@ -269,7 +269,7 @@ function kyun(seconds){
 }
 //---Metadata stiker
 			function addMetadata(packname, author) {	
-				if (!packname) packname = 'Yeyen Cangtip'; if (!author) author = 'Bot Yeyen';	
+				if (!packname) packname = 'Angger'; if (!author) author = 'Bot Angger';	
 				author = author.replace(/[^a-zA-Z0-9]/g, '');	
 				let name = `${author}_${packname}`
 				if (fs.existsSync(`./src/stickers/${name}.exif`)) return `./src/stickers/${name}.exif`
@@ -310,9 +310,11 @@ function kyun(seconds){
 			}
 /********** FUNCTION ***************/
 
+
 const ara = new WAConnection()
-   async function starts() {
+        async function starts() {
 	const ara = new WAConnection()
+	ara.version = [2, 2119, 6]
 	ara.logger.level = 'warn'
 	console.log(banner.string)
 	ara.on('qr', () => {
